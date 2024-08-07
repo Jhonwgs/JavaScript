@@ -21,10 +21,10 @@
         var name = window.prompt("What is your name?")
         var lastname = window.prompt("what is your lasname?")
         window.alert("Welcome "+name + " " + lastname)
-        var n1 = Number.parseInt(window.prompt("First number:"))
-        var n2 = Number.parseInt(window.prompt("Second number:"))
+        var n1 = Number(window.prompt("First number:"))
+        var n2 = Number(window.prompt("Second number:"))
         var soma = n1+n2
-        window.alert(soma)
+        window.alert(`A soma entre ${n1} e ${n2} é :${soma}`)
     </script>
 </body>
 </html>
