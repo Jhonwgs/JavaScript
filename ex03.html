@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOB</title>
+    <STYLE>
+        body{
+            background-color:darkgray;
+            color: rgba(248, 248, 248, 0.829);
+        }
+        h1{
+            color: rgb(226, 241, 16);
+        }
+    </STYLE>
+</head>
+<body>
+    <h1>WORK</h1>
+    <script>
+        var fName = window.prompt("What is your first name?")
+        var lastName = window.prompt("What is your last name?")
+        document.write(`NICE TO MEET YOU ${fName.toUpperCase()} ${lastName.toUpperCase()}<br/>`)
+        document.write(`Your name has ${fName.length+lastName.length} caracters <br/>`)
+        var salary = Number(window.prompt("Value:"))
+        document.write("Your Salary is "+salary.toLocaleString('pt-BR',{style: 'currency', currency: 'USD'}))
+        
+    </script>
+</body>
+</html>
